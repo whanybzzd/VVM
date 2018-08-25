@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target ‘VVM’
+pod “ReactiveObjC”
+post_install do |installer|
+  require 'fileutils'
+end
